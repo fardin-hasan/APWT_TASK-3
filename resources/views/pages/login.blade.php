@@ -17,8 +17,8 @@
     <section class="sign-in">
         <div class="container">
             <div class="signin-content">
-                <div class="signin-image">
-                    <figure><img src="loginForm/images/signin-image.jpg" alt="sing up image"></figure>
+                <div>
+       
                     <a href="{{ route ('registration') }}" class="signup-image-link">Create an account</a>
                 </div>
 
