@@ -3,7 +3,7 @@
         color: blue;
     }
 </style>
-<nav class="navbar navbar-expand-lg bg-info">
+<nav class="navbar navbar-expand-lg">
     <div class="container">
         <h5 class="fw-bold">Navbar</h5>
         <div class="navbar-nav ms-auto">

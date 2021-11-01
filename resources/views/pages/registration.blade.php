@@ -38,7 +38,7 @@
                                 <h6 class="text-danger">{{$message}}</h6>
                                 @enderror
                             </div>
-                            <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                            <label for="name"></label>
                             <input type="text" name="name" value="{{old('name')}}" id="name" placeholder="Your Name" />
                         </div>
                         <div class="form-group">
@@ -47,7 +47,7 @@
                                 <h6 class="text-danger">{{$message}}</h6>
                                 @enderror
                             </div>
-                            <label for="email"><i class="zmdi zmdi-email"></i></label>
+                            <label for="email"></label>
                             <input type="text" name="email" id="email" placeholder="Your Email" />
 
                         </div>
@@ -57,7 +57,7 @@
                                 <h6 class="text-danger">{{$message}}</h6>
                                 @enderror
                             </div>
-                            <label for="phone"><i class="zmdi zmdi-rotate-right zmdi-hc-spin"></i></label>
+                            <label for="phone"></i></label>
                             <input type="text" name="phone" id="phone" placeholder="Your Phone" />
 
                         </div>
@@ -70,7 +70,7 @@
                                 @enderror
                             </div>
                            
-                            <label for="address"><i class="zmdi zmdi-settings zmdi-hc-spin"></i></label>
+                            <label for="address"></label>
                             <input type="text" name="address" id="address" placeholder="Your Address" />
 
                         </div>
@@ -81,7 +81,7 @@
                                 <h6 class="text-danger">{{$message}}</h6>
                                 @enderror
                             </div>
-                            <label for="password"><i class="zmdi zmdi-lock"></i></label>
+                            <label for="password"></label>
                             <input type="password" name="password" id="password" placeholder="Your Password" />
 
                         </div>
@@ -91,7 +91,7 @@
                                 <h6 class="text-danger">{{$message}}</h6>
                                 @enderror
                             </div>
-                            <label for="confirm-password"><i class="zmdi zmdi-lock-outline"></i></label>
+                            <label for="confirm-password"></label>
                             <input type="password" name="confirm-password" id="confirm-password"
                                 placeholder="Repeat password" />
 
@@ -100,10 +100,11 @@
                             <input type="submit" name="signup" id="signup" class="form-submit" value="Register" />
                         </div>
                     </form>
-                </div>
-                <div >
+                    <div >
                     <a href="{{ route ('login') }}" class="signup-image-link">I am already member</a>
                 </div>
+                </div>
+               
             </div>
         </div>
     </section>
